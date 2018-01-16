@@ -13,3 +13,9 @@ For the most part the focus here is Python 3.  Python 2 is nearly EOL and should
 ## GPGME Official bindings vs. other Python GPG wrappers
 
 The focus of my works is, obviously, the official GPGME Python bindings and not the wrappers.  However, some of this code is geared towards explicitly detecting what a system can support or has available and using what is there (or recommending an update in some cases).  Mostly this will be checking for the python-gnupg module, not the gnupg fork, since the python-gnupg module is *far* more widespread.
+
+## Markdown vs. reStructuredText vs. Org-Mode
+
+In the Python world the official documentation format is reStructuredText (.rst files), but GPGME uses Org-Mode as part of the GNU Project, so which to choose?  I'll probably select the most likely to be appropriate for whatever else is in that section.  I kind of assume most people use [Pandoc](https://pandoc.org) with all these files anyway, when they care enough to format shift them.
+
+I might lean a little towards Org-Mode since I am using Emacs here.

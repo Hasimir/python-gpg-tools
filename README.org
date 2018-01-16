@@ -19,7 +19,7 @@ GPGME's Python bindings).
 
 ** Python 2 vs. Python 3
    :PROPERTIES:
-   :CUSTOM_ID: python-2-vs.-python-3
+   :CUSTOM_ID: python-2-vs-python-3
    :END:
 
 For the most part the focus here is Python 3. Python 2 is nearly EOL and
@@ -41,7 +41,7 @@ since the python-gnupg module is /far/ more widespread.
 
 ** Markdown vs. reStructuredText vs. Org-Mode
    :PROPERTIES:
-   :CUSTOM_ID: markdown-vs.-restructuredtext-vs.-org-mode
+   :CUSTOM_ID: md-vs-rst-vs-org
    :END:
 
 In the Python world the official documentation format is
